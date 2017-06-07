@@ -1,0 +1,135 @@
+.navbar{
+	background-color: black
+
+}
+
+a{
+	color:white;
+}
+.card{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: #D1D1D1
+}
+.cards{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.icon-1{
+	display:flex;
+	max-width: 291px;
+}
+
+.icon-2{
+	display:flex;
+	max-width: 291px;
+}
+
+.icon-3{
+	display:flex;
+	max-width: 291px;
+}
+.icon-4{
+	display:flex;
+	max-width: 291px;
+}
+
+h2,h4,p{
+	text-align: center;
+}
+
+h2{
+	<div class="w-50 p-3" style="background-color: white;">Width 50%</div>
+}
+
+.p2{
+	color:#D1D1D1;
+
+}
+
+.car1{
+	display:flex;
+	max-height: 215px;
+	max-width: 291px;
+}
+
+.car2{
+	display:flex;
+	max-height: 215px;
+	max-width: 291px;
+}
+
+.car3{
+	display:flex;
+	max-height: 215px;
+	max-width: 291px;
+}
+.car4{
+	display:flex;
+	max-height: 215px;
+	max-width: 291px;
+}
+
+.car5{
+	display:flex;
+	max-height: 215px;
+	max-width: 291px;
+}
+
+.car6{
+	display:flex;
+	max-height: 215px;
+	max-width: 291px;
+}
+
+.car7{
+	display:flex;
+	max-height: 215px;
+	max-width: 291px;
+}
+.car8{
+	display:flex;
+	max-height: 215px;
+	max-width: 291px;
+		}
+
+#carouselExampleIndicators img{
+	width:100%;
+	height:auto;
+}			    
+
+.container-fluid{
+	background-color: #D1D1D1;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.kelly-container{
+	display:flex;
+}
+
+.image{
+	flex:1;
+}
+
+.bluebook{
+	flex:5;
+}
+
+.gray{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color:212121;
+}
+
+.footer{
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.jeep{
+	font-weight: bold;
+}
