@@ -9,13 +9,16 @@ a{
 .card{
 	display:flex;
 	flex-direction: row;
-	justify-content: space-around;
-	background-color: #D1D1D1
+	justify-content: space-between;
+	background-color: #D1D1D1;
+	padding:15px;
+	overflow-x: scroll;
 }
 .cards{
 	display:flex;
 	flex-direction: row;
 	justify-content: space-around;
+
 }
 
 .icon-1{
@@ -45,9 +48,17 @@ h2{
 	<div class="w-50 p-3" style="background-color: white;">Width 50%</div>
 }
 
+h3{
+	color:white;
+}
+
 .p2{
 	color:#D1D1D1;
 
+}
+
+.text-color{
+	color:#D1D1D1;
 }
 
 .car1{
@@ -98,7 +109,7 @@ h2{
 
 #carouselExampleIndicators img{
 	width:100%;
-	height:auto;
+	height:80%;
 }			    
 
 .container-fluid{
@@ -117,12 +128,17 @@ h2{
 
 .bluebook{
 	flex:5;
+
 }
 
 .gray{
 	padding-top: 50px;
 	padding-bottom: 50px;
-	background-color:212121;
+	background-color: #212121;
+}
+
+h6{
+	color:#212121;
 }
 
 .footer{
@@ -132,4 +148,72 @@ h2{
 
 .jeep{
 	font-weight: bold;
+}
+
+.black-box{
+	background-color: black
+}
+
+.p-2{
+	color: white
+}
+
+.list-padding{
+	padding-bottom: 50px;
+
+i{
+  font-size: 200%;
+  color:white;
+}
+
+.radio{
+	padding-bottom: 5px
+}
+
+.align{
+	align-left
+}
+
+.black-background{
+	background-color: black
+}
+
+.padding-space{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+hr{
+	color:white;
+	background-color: white;
+	width:95%;
+
+}
+
+h5{
+	color:white;
+}
+
+.btn-primary{
+	background-color: yellow;
+}
+
+.wrapper {
+  width: 100%;
+  /* whatever width you want */
+  display: inline-block;
+  position: relative;
+}
+.wrapper:after {
+  padding-top: 56.25%;
+  /* 16:9 ratio */
+  display: block;
+  content: '';
+}
+.main {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
